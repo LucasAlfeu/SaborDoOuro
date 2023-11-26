@@ -51,3 +51,27 @@
     text-decoration: underline;
     transition: 0.6s;
 }
+.principal{
+    background-color: #1B1E23;
+}
+.cafe{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+}
+.cafe__titulo{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.cafe__container{
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+}
+.cafe__lista{
+    list-style: none;
+}
+.cafe__item{
+    padding: .75rem 0;
+}
