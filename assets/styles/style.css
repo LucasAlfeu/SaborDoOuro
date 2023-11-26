@@ -74,3 +74,37 @@
 .cafe__item{
     padding: .75rem 0;
 }
+
+@media screen and (max-width: 416px) {
+    .cabecalho{
+        background: url(../Image/banner-360.png);
+        background-position-x: center;
+        background-position-y: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 25vh;
+        width: 100vw;
+    }
+    .cabecalho__container{
+        width: 100vw;
+        margin: 0;
+        padding: .5rem .25rem;
+    }
+    .cabecalho__logo{
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .cabecalho__item{
+        font-size: 1rem;
+        padding-left: 0.75rem;
+    }
+    .cafe__container{
+        justify-content: space-between;
+        width: 80vw;
+    }
+    .cafe__lista{
+        width: 50%;
+        padding-left: 1rem;
+    }
+
+}
