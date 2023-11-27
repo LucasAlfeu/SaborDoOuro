@@ -227,24 +227,34 @@
     .sobre__titulo{
         font-size: 1.5rem;
     }
+    .jantar__lista{
+        display: flex;
+        overflow: auto;
+    }
+    .scroll{
+        display: flex;
+        align-items: center;
+        overflow: auto;
+        width: 100vw;
+    }
     .sobre__container{
-        flex-direction: column;
+        width: 200vw;
+        padding:  0 1.5rem;
     }
     .sobre__texto{
-        width: 45vw;
-        padding: 0.75rem;
-        background-color: #FFA500;
+        width: 100vw;
+        padding-right: 1.5rem;
+        text-align: center;
     }
     .sobre__imagem{
-        width: 60vw;
-        margin-top: 1rem;
+        width: 95vw;
     }
     .primeiro{
         position: relative;
-        top: -150px;
+        right: 410px;
     }
     .segundo{
         position: relative;
-        top: 396px;
+        left: 410px;
     }
 }
