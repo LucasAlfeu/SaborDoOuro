@@ -170,6 +170,54 @@
 .sobre__imagem{
     width: 20vw;
 }
+.cupons{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.cupons__titulo{
+    font-size: 2rem;
+    text-align: center;
+}
+.cupons__texto{
+    padding: 1.5rem 0;
+}
+.cupons__form{
+    display: flex;
+    margin-bottom: 1rem;
+}
+.cupons__container{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+}
+.cupons__label{
+    margin-bottom: .25rem;
+}
+.cupons__input{
+    border: none;
+    color: #000;
+    height: 1.5rem;
+    width: 14rem;
+}
+.cupons__botao{
+    background: #0070FF;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    left: 17px;
+    padding: .75rem 1.5rem;
+    position: relative;
+    text-align: center;
+}
+.cupons__botao:hover{
+    cursor: pointer;
+    background: #004DB3;
+}
 
 @media screen and (max-width: 416px) {
     .cabecalho{
@@ -252,5 +300,16 @@
     .segundo{
         position: relative;
         left: 410px;
+    }
+    .cupons{
+        align-items: center;
+        justify-content: center;
+        margin: 0 10vw;
+        width: 80vw;
+    }
+    .cupons__form{
+        flex-direction: column;
+        position: relative;
+        right: 5px;
     }
 }

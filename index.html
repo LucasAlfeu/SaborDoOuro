@@ -180,18 +180,20 @@
         </section>
         <section class="cupons">
             <h2 class="cupons__titulo">CUPONS</h2>
-            <p class="cupons__texto">
-                Se cadastre para receber descontos em nossos produtos:
-            </p>
-            <form> 
-                <div class="cupons__container">
-                    <label for="nome">Nome:</label> 
-                    <input type= "text" name="nome">
-                    <label for="telefone">WhatsApp:</label>
-                    <input type= "number" name= "telefone">
-                </div>
-                <button class="cupons__botao"> Enviar </button>
-            </form>
+                <p class="cupons__texto">
+                    Se cadastre para receber descontos em nossos produtos:
+                </p>
+                <form class="cupons__form"> 
+                    <div class="cupons__container">
+                        <label class="cupons__label" for="nome">Nome:</label> 
+                        <input class="cupons__input" type= "text" name="nome">
+                    </div>
+                    <div class="cupons__container">
+                        <label class="cupons__label" for="telefone">WhatsApp:</label>
+                        <input class="cupons__input" type= "tel" name= "telefone" placeholder="(XX) XXXXX - XXXX">
+                    </div>
+                </form>
+                <input type="submit" value="Enviar" class="cupons__botao">
         </section>
     </main>
 </body>
