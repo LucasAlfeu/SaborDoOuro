@@ -160,6 +160,11 @@
 .sobre__container{
     display: flex;
     width: 60vw;
+    margin-bottom: 2rem;
+    justify-content: space-between;
+}
+.sobre__texto{
+    width: 45%;
 }
 
 @media screen and (max-width: 416px) {
@@ -192,16 +197,17 @@
         width: 70vw;
     }
     .cafe__lista{
-        width: auto;
+        width: 100%;
     }
     .cafe__item{
-        display: flex;
-        align-items: center;
-        width: 200px;
+        width: 100%;
+        text-align: center;
     }
     .cafe__item:last-child{
         padding-bottom: 0;
         margin-bottom: 0;
     }
-
+    .sobre__container{
+        flex-direction: column;
+    }
 }
