@@ -96,7 +96,54 @@
     width: 80vw;
     text-align: center;
 }
-
+.jantar{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.jantar__lista{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+}
+.jantar__titulo{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.jantar__item{
+    align-items: center;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem ;
+    width: 260px;
+    margin: 0.5rem;
+}
+.jantar__item:hover{
+    background-color: #FFA500;
+    border: none;
+    transition: 0.6s;
+}
+.jantar__imagem{
+    margin-bottom: 0.5rem;
+    width: 90%;
+}
+.jantar__box{
+    padding: 1rem;
+}
+.jantar__nome{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    text-align: left;
+    width: 100%;
+}
+.jantar__preco{
+    font-weight: 800;
+    text-align: right;
+    width: 100%;
+}
 @media screen and (max-width: 416px) {
     .cabecalho{
         background: url(../Image/banner-360.png);
