@@ -227,10 +227,6 @@
     .sobre__titulo{
         font-size: 1.5rem;
     }
-    .jantar__lista{
-        display: flex;
-        overflow: auto;
-    }
     .scroll{
         display: flex;
         align-items: center;
