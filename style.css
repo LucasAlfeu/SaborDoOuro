@@ -162,9 +162,13 @@
     width: 60vw;
     margin-bottom: 2rem;
     justify-content: space-between;
+    align-items: center;
 }
 .sobre__texto{
     width: 45%;
+}
+.sobre__imagem{
+    width: 20vw;
 }
 
 @media screen and (max-width: 416px) {
@@ -206,6 +210,13 @@
     .cafe__item:last-child{
         padding-bottom: 0;
         margin-bottom: 0;
+    }
+    .almoco__lista{
+        width: 100%;
+    }
+    .almoco__item{
+        width: 100%;
+        text-align: center;
     }
     .sobre__container{
         flex-direction: column;
