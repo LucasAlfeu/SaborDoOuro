@@ -202,6 +202,7 @@
     border: none;
     color: #000;
     height: 1.5rem;
+    padding: .1rem .5rem;
     width: 14rem;
 }
 .cupons__botao{
@@ -220,16 +221,16 @@
 }
 .rodape{
     background: #FFA500;
-    width: 100vw;
-    text-align: center;
     padding: 1.25rem 0;
+    text-align: center;
+    width: 100vw;
 }
 .rodape__logo{
-    width: 5vw;
     background-color: #fff;
     border-radius: 50%;
-    padding: 0;
     margin-bottom: 1rem;
+    padding: 0;
+    width: 5vw;
 }
 .rodape__tel, .rodape__endereco{
     margin-bottom: .75rem;
@@ -324,6 +325,10 @@
         justify-content: center;
         margin: 0 10vw;
         width: 80vw;
+    }
+    .cupons__botao{
+        position: relative;
+        left: 7px;
     }
     .cupons__form{
         flex-direction: column;
