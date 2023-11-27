@@ -200,6 +200,9 @@
         flex-direction: column;
         width: 70vw;
     }
+    .cafe__titulo{
+        font-size: 1.5rem;
+    }
     .cafe__lista{
         width: 100%;
     }
@@ -211,6 +214,9 @@
         padding-bottom: 0;
         margin-bottom: 0;
     }
+    .almoco__titulo{
+        font-size: 1.5rem;
+    }
     .almoco__lista{
         width: 100%;
     }
@@ -218,7 +224,27 @@
         width: 100%;
         text-align: center;
     }
+    .sobre__titulo{
+        font-size: 1.5rem;
+    }
     .sobre__container{
         flex-direction: column;
+    }
+    .sobre__texto{
+        width: 45vw;
+        padding: 0.75rem;
+        background-color: #FFA500;
+    }
+    .sobre__imagem{
+        width: 60vw;
+        margin-top: 1rem;
+    }
+    .primeiro{
+        position: relative;
+        top: -150px;
+    }
+    .segundo{
+        position: relative;
+        top: 396px;
     }
 }
