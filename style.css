@@ -146,6 +146,22 @@
     text-align: right;
     width: 100%;
 }
+.sobre{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem 0;
+}
+.sobre__titulo{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.sobre__container{
+    display: flex;
+    width: 60vw;
+}
+
 @media screen and (max-width: 416px) {
     .cabecalho{
         background: url(/assets/Image/banner-360.png);
@@ -170,12 +186,21 @@
         padding-left: 0.75rem;
     }
     .container{
-        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
         width: 70vw;
     }
     .cafe__lista{
         width: 50%;
-        padding-left: 1rem;
+    }
+    .cafe__item{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .cafe__item:last-child{
+        padding-bottom: 0;
+        margin-bottom: 0;
     }
 
 }
