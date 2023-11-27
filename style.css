@@ -187,16 +187,17 @@
     }
     .container{
         align-items: center;
+        justify-content: center;
         flex-direction: column;
         width: 70vw;
     }
     .cafe__lista{
-        width: 50%;
+        width: auto;
     }
     .cafe__item{
         display: flex;
         align-items: center;
-        width: 100%;
+        width: 200px;
     }
     .cafe__item:last-child{
         padding-bottom: 0;
