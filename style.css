@@ -257,6 +257,9 @@
 .rodape__copy{
     font-size: 12px;
 }
+.topo{
+    display: none;
+}
 @media screen and (max-width: 416px) {
     .cabecalho{
         background: url(/assets/Image/banner-360.png);
@@ -356,5 +359,10 @@
     }
     .rodape__logo{
         width: 15vw;
+    }
+    .topo{
+        display: block;
+        margin: 1.5rem 0 0 1.5rem;
+        text-decoration: none;
     }
 }
