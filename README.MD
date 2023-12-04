@@ -9,7 +9,7 @@ O trabalho insistia em cronstuirmos uma página estática com HTML e CSS puro de
 
 ## Layout
 
-![Web](https://github.com/LucasAlfeu/SaborDoOuro/blob/main/assets/Image/banner.png)
+![Web](https://github.com/LucasAlfeu/SaborDoOuro/blob/main/assets/Image/layout.png)
 
 # Tecnologias utilizadas
 
