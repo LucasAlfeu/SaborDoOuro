@@ -25,6 +25,6 @@ O trabalho insistia em cronstuirmos uma página estática com HTML e CSS puro de
 
 # Autores
 
-Isabele 
-Lucas Alfeu da Silva Oliveira
+Isabele dos Santos Oliveira, 
+Lucas Alfeu da Silva Oliveira, 
 Mariana Corrêa de Medeiros
